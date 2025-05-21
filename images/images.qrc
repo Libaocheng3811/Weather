@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/weaUI">
         <file>weaUI.png</file>
+        <file>AppIcon.jpg</file>
     </qresource>
 </RCC>

@@ -49,6 +49,7 @@ Weather::Weather(QWidget* parent) : QWidget(parent), ui(new Ui::Weather)
     setFixedSize(width(), height());
   // 设置无边框模式，无边框模式会隐藏退出，以及最大最小化按钮,并且不能鼠标拖动
     setWindowFlag(Qt::FramelessWindowHint);
+    setWindowIcon(QIcon(":/weaUI/AppIcon.jpg"));
 
     // 右键菜单退出
     m_pMenu = new QMenu(this); // this指定了menu的父对象为当前对象（Weather）
